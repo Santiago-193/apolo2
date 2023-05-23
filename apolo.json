@@ -38,6 +38,10 @@
             "Nigth": {
               "value": "#0c0623",
               "type": "color"
+            },
+            "Cards Background": {
+              "value": "#333747",
+              "type": "color"
             }
           }
         },
@@ -54,7 +58,20 @@
             "textDecoration": "{textDecoration.none}"
           },
           "type": "typography",
-          "description": "Usar para todos los elementos que son interactivos"
+          "description": "Usar para todos los elementos que son interactivos",
+          "Interactivo": {
+            "value": "#01ad35",
+            "type": "color"
+          },
+          "Background": {
+            "value": "#c2e3be",
+            "type": "color"
+          },
+          "Disable": {
+            "value": "#747f92",
+            "type": "color",
+            "description": "Lo usamos para los elementos que están dentro de un contenedor deshabilitado"
+          }
         },
         "Hero": {
           "value": {
@@ -130,7 +147,7 @@
         "Body Semi bold": {
           "value": {
             "fontFamily": "{fontFamilies.poppins}",
-            "fontWeight": "{fontWeights.poppins-3}",
+            "fontWeight": "{fontWeights.poppins-0}",
             "lineHeight": "{lineHeights.0}",
             "fontSize": "{fontSize.2}",
             "letterSpacing": "{letterSpacing.0}",
@@ -183,6 +200,21 @@
             "textDecoration": "{textDecoration.none}"
           },
           "type": "typography"
+        },
+        "body small": {
+          "value": {
+            "fontFamily": "{fontFamilies.poppins}",
+            "fontWeight": "{fontWeights.poppins-2}",
+            "lineHeight": "{lineHeights.0}",
+            "fontSize": "{fontSize.1}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "type": "typography",
+          "description": "Lo usamos para resaltar la palabra baz"
         }
       }
     },
