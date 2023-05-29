@@ -215,6 +215,50 @@
           },
           "type": "typography",
           "description": "Lo usamos para resaltar la palabra baz"
+        },
+        "spacing": {
+          "Large": {
+            "value": "$root * 2",
+            "type": "spacing",
+            "description": "Equivale a 16px"
+          },
+          "Medium": {
+            "value": "$root * 1.5",
+            "type": "spacing",
+            "description": "Equivale a 12px"
+          },
+          "Small": {
+            "value": "$root",
+            "type": "spacing",
+            "description": "Equivale a 8px"
+          },
+          "ExtraSmall": {
+            "value": "$root * 0.5",
+            "type": "spacing",
+            "description": "Equivale a 4px"
+          }
+        },
+        "Ratio": {
+          "Large": {
+            "value": "$root * 3",
+            "type": "borderRadius",
+            "description": "Equivale a 24px\n|Usos\nPara los contenedores principales"
+          },
+          "Medium": {
+            "value": "$root * 2",
+            "type": "borderRadius",
+            "description": "Equivale a 16px\n|Usos\nLo usamos para los contenedores que esten dentro de un contenedor principal"
+          },
+          "Small": {
+            "value": "$root",
+            "type": "borderRadius",
+            "description": "Equivale a 8px\n| Usos\nLo usamos para los contenedores que esten dentro de un contenedor que se encuentre dentro de uno principal\n\nLo usamos para las cosas mas pequeñas en pantalla"
+          },
+          "ExtraSmall": {
+            "value": "$root * 0.5",
+            "type": "borderRadius",
+            "description": "Equivale a 4pm\n| Usos\nLo usamos para las cosas mas pequeñas en pantalla"
+          }
         }
       }
     },
@@ -311,6 +355,11 @@
         "value": "0px",
         "type": "dimension"
       }
+    },
+    "root": {
+      "value": "8",
+      "type": "sizing",
+      "description": "valor root para calcular dimensiones"
     }
   },
   "$themes": [],
